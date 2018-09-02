@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 86 43">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff6348;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 9px;
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        filter: url(#Rectangle_16);
+      }
+    </style>
+    <filter id="Rectangle_16" x="0" y="0" width="86" height="43" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Reamorebtn" transform="translate(-164.5 -428.5)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 164.5, 428.5)">
+      <rect id="Rectangle_16-2" data-name="Rectangle 16" class="cls-1" width="71" height="28" rx="14" transform="translate(7.5 2.5)"/>
+    </g>
+    <text id="_Read_more" data-name="     Read more" class="cls-2" transform="translate(202 448)"><tspan x="-29.509" y="0" xml:space="preserve">     Read more</tspan></text>
+  </g>
+</svg>
