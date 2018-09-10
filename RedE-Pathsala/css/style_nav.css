@@ -1,0 +1,56 @@
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+av{
+  width: 100%;
+}
+
+ul{
+  width:100%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+ul li{
+  float: left;
+  display:inline-block;
+  padding: 0 20px 0 20px;
+  /*margin-top: 10px;*/
+}
+
+ul li:hover{
+  background: #746D6D;
+}
+
+ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+.toggle{
+  width: 100%;
+  padding:10px 20px;
+  /*margin: 20px;*/
+  box-sizing: border-box;
+  text-align: right;
+  display: none;
+}
+
+@media(max-width:768px)
+{
+  .toggle{
+        display: block;
+      }
+
+    ul{
+      width:100%
+    }
+
+    ul li{
+      display: block;
+    }
+}
